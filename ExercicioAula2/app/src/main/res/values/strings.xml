@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">0123</string>
+    <string name="nome">Nome</string>
+    <string name="estadoCivil">Estado Civil</string>
+    <string name="cidade">Cidade</string>
+    <string name="idade">Idade</string>
+    <string name="salvar">salvar</string>
+    <string name="preencha_nome">Preencha o nome</string>
+    <string name="preencha_idade">Preencha idade</string>
+    <string name="preencha_estadoCivil">Preencha estado civil</string>
+</resources>
