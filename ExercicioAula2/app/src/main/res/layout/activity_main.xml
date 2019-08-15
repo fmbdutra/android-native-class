@@ -86,24 +86,23 @@
         android:text="@string/idade"
         android:textSize="18sp" />
 
-    <EditText
-        android:id="@+id/idade"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0px"
-        android:layout_marginTop="30px"
-        android:ems="10"
-        android:inputType="textPersonName"
-        />
+        <EditText
+            android:id="@+id/idade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0px"
+            android:layout_marginTop="30px"
+            android:ems="10"
+            android:inputType="textMultiLine|number" />
 
-    <Button
-        android:id="@+id/buttonSalvar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0px"
-        android:layout_marginTop="30px"
-        android:onClick="salvar"
-        android:text="@string/salvar" />
+        <Button
+            android:id="@+id/buttonSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0px"
+            android:layout_marginTop="30px"
+            android:onClick="salvar"
+            android:text="@string/salvar" />
 
     <Button
         android:id="@+id/buttonListar"
@@ -111,7 +110,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0px"
         android:layout_marginTop="30px"
-        android:text="listar"
+        android:text="@string/listar"
         android:onClick="listar"
         />
 
@@ -121,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="0px"
         android:layout_marginTop="30px"
-        android:text="limpar"
+        android:text="@string/limpar"
         android:onClick="limpaTela"
         />
 

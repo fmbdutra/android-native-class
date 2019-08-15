@@ -5,6 +5,8 @@
     <string name="cidade">Cidade</string>
     <string name="idade">Idade</string>
     <string name="salvar">salvar</string>
+    <string name="limpar">limpar</string>
+    <string name="listar">listar</string>
     <string name="preencha_nome">Preencha o nome</string>
     <string name="preencha_idade">Preencha idade</string>
     <string name="preencha_estadoCivil">Preencha estado civil</string>

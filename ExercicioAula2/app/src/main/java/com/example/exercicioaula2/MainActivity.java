@@ -43,30 +43,25 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-
         Pessoa pessoa = new Pessoa();
         pessoa.setIdade(Integer.parseInt(editTextIdade.getText().toString()));
         pessoa.setNome(editTextNome.getText().toString());
-        if(radioButtonSolteiro.isSelected()){
-            pessoa.setSolteiro(true);
-            if(radioButtonCasado.isSelected()){
-                pessoa.setCasado(true);
-            }
-            else if(radioButtonSolteiro.isSelected()){
+        if(radioButtonCasado.isChecked()) {
+            pessoa.setCasado(true);
+        }
+        else if (radioButtonViuvo.isSelected()) {
+             pessoa.setViuvo(true);
+        } else {
                 pessoa.setSolteiro(true);
-            }else{
-                pessoa.setViuvo(true);
-            }
+        }
 
             listaPessoa.add(pessoa);
-            Toast.makeText(getApplicationContext(),"Pessoa salva com sucesso",Toast.LENGTH_LONG).show();;
+            Toast.makeText(getApplicationContext(), "Pessoa adicionada", Toast.LENGTH_LONG).show();
 
-            limpaTela();
-
-        }
+            limpaTela(view);
     }
 
-    public void listar(View view ) {
+    public void listar(View view) {
         // buscando componente
         StringBuilder message = new StringBuilder();
 
@@ -78,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void limpaTela(){
+    public void limpaTela(View view){
 
         EditText editTextNome = findViewById(R.id.nome);
         EditText editTextIdade = findViewById(R.id.idade);
