@@ -10,16 +10,16 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10px"
+        android:layout_marginTop="0sp"
         android:orientation="vertical"
         android:visibility="visible">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_marginStart="0px"
-        android:layout_marginTop="30px"
+        android:layout_height="100sp"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="0sp"
         android:src="@mipmap/pizzaiolo" />
 
     <TextView
@@ -93,36 +93,35 @@
             android:layout_marginStart="0px"
             android:layout_marginTop="30px"
             android:ems="10"
-            android:inputType="textMultiLine|number" />
+            android:inputType="textMultiLine" />
 
         <Button
             android:id="@+id/buttonSalvar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="0px"
-            android:layout_marginTop="30px"
+            android:layout_marginTop="2sp"
             android:onClick="salvar"
             android:text="@string/salvar" />
 
-    <Button
-        android:id="@+id/buttonListar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0px"
-        android:layout_marginTop="30px"
-        android:text="@string/listar"
-        android:onClick="listar"
-        />
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0px"
+            android:layout_marginTop="2sp"
+            android:onClick="limpaTela"
+            android:text="@string/limpar" />
 
-    <Button
-        android:id="@+id/buttonLimpar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="0px"
-        android:layout_marginTop="30px"
-        android:text="@string/limpar"
-        android:onClick="limpaTela"
-        />
+        <Button
+            android:id="@+id/buttonListar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0px"
+            android:layout_marginTop="2sp"
+            android:text="@string/listar"
+            android:onClick="listar"
+            />
 
     </LinearLayout>
 
