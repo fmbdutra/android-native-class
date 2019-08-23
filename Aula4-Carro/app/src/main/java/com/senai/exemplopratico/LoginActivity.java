@@ -26,9 +26,11 @@ public class LoginActivity extends AppCompatActivity {
         if (usuario.getText().toString().equals("admin") &&
                 senha.getText().toString().equals("123")
         ) {
-
+            Bundle sacola = new Bundle();
+            sacola.putString("usuario_logado","admin");
             Intent activityCadastroCarro = new Intent(this, CadastroCarroActivity.class);
             //this -> activity pai (essa), próxima activity
+            activityCadastroCarro.putExtras(sacola);
             startActivity(activityCadastroCarro);
 
         }else{

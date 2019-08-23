@@ -17,7 +17,10 @@ public class CadastroCarroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         setContentView(R.layout.activity_cadastro_carro);
+        String usuario = (String) getIntent().getExtras().get("usuario_logado");
+        setTitle("Seja bem vindo " + usuario);
 
         //Popular Lista
         listaMarca.add("VW");
