@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExemploPratico</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">login</string>
+    <string name="usario_senha_invalido">Usuário ou senha inválido</string>
+    <string name="nomeDoCarro">Nome do Carro</string>
+    <string name="marcaDoCarro">Marca do Carro</string>
+    <string name="placaDoCarro">Placa do Carro</string>
+    <string name="exemploPlaca">ABCD012 ou ABC0D123</string>
+
+
+</resources>
