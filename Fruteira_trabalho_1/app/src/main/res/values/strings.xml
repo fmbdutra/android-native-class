@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fruteira</string>
+    <string name="preencha_nome">Preencha nome da fruta</string>
+    <string name="preencha_preco">Preencha preco da fruta</string>
+    <string name="preencha_mes">Preencha mes da colheira</string>
+    <string name="preco">Preço</string>
+    <string name="nome">Nome da Fruta</string>
+    <string name="mesColheira">Mes de Colheira</string>
+    <string name="hintFruta">Laranja, Ameixa, Tomate</string>
+    <string name="hintPreco">Em Reais (R$)</string>
+    <string name="salvar">Salvar</string>
+    <string name="hintMes">Seleciona Mes</string>
+</resources>
