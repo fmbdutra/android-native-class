@@ -6,72 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".CadastroCarroActivity">
 
-    <LinearLayout
-        android:id="@+id/editTextNomeCarro"
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nomeDoCarro" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="@string/nomeDoCarro" />
+    <EditText
+        android:id="@+id/nomeCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/nomeDoCarro"
+        android:inputType="textPersonName" />
 
-        <EditText
-            android:id="@+id/nomeCarro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:ems="10"
-            android:hint="@string/nomeDoCarro"
-            android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/marcaDoCarro" />
 
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="@string/marcaDoCarro" />
+    <Spinner
+        android:id="@+id/spinnerMarcaCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp" />
 
-        <Spinner
-            android:id="@+id/spinnerMarcaCarro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_marginTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/placaDoCarro" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="@string/placaDoCarro" />
+    <EditText
+        android:id="@+id/placaCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/exemploPlaca"
+        android:inputType="textPersonName" />
 
-        <EditText
-            android:id="@+id/placaCarro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:ems="10"
-            android:hint="@string/exemploPlaca"
-            android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Cor do Carro" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:text="Cor do Carro" />
-
-        <Spinner
-            android:id="@+id/spinnerCorCarro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp" />
-    </LinearLayout>
+    <Spinner
+        android:id="@+id/spinnerCorCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
