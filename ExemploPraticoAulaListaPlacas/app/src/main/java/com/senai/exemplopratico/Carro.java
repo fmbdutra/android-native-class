@@ -1,6 +1,8 @@
 package com.senai.exemplopratico;
 
-class Carro {
+import java.io.Serializable;
+
+class Carro implements Serializable {
 
     public String getNome() {
         return nome;

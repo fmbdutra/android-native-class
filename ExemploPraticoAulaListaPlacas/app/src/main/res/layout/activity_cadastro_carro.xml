@@ -90,5 +90,12 @@
             android:onClick="salvar"
             android:text="@string/salvar" />
 
+        <Button
+            android:id="@+id/listaCarros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listagem"
+            android:text="@string/listaBtn" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -122,4 +122,12 @@ public class CadastroCarroActivity extends AppCompatActivity {
 
 
     }
+
+    public void listagem(View view){
+        Intent i = new Intent(this,ListagemCarroActivity.class);
+        Bundle b = new Bundle();
+        b.putSerializable("lista", listaCarrosCadastrados);
+        i.putExtras(b);
+        startActivity(i);
+    }
 }

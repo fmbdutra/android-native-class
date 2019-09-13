@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CadastraCorActivity"></activity>
+        <activity android:name=".ListagemCarroActivity"></activity>
+        <activity android:name=".CadastraCorActivity" />
         <activity android:name=".CadastroCarroActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>

@@ -14,4 +14,5 @@
     <string name="addNovaCor">Adicionar Cor</string>
     <string name="preenchaCampos">Preencha os campos</string>
     <string name="salvouSucesso">Salvo com Sucesso</string>
+    <string name="listaBtn">Lista de Carros</string>
 </resources>
