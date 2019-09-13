@@ -12,6 +12,8 @@
     <string name="dicaCor">Digite o nome da cor</string>
     <string name="cadastraCor">Nova Cor</string>
     <string name="addNovaCor">Adicionar Cor</string>
+    <string name="preenchaCampos">Preencha todos os campos</string>
+    <string name="salvouSucesso">Salvo com Sucesso</string>
 
 
 </resources>

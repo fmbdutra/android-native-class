@@ -18,7 +18,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/nome_carro" />
+            android:text="@string/nome_carro"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editTextNomeCarro"
@@ -33,7 +34,8 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/marca_carro" />
+            android:text="@string/marca_carro"
+            android:textSize="20sp" />
 
         <Spinner
             android:id="@+id/spinnerMarcaCarro"
@@ -46,7 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="@string/placa_carro" />
+            android:text="@string/placa_carro"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editTextPlacaCarro"
@@ -60,19 +63,38 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cor_carro" />
+            android:text="@string/cor_carro"
+            android:textSize="20sp" />
 
-        <Spinner
-            android:id="@+id/spinnerCorCarro"
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp" />
+            android:orientation="horizontal">
+
+
+            <Spinner
+                android:id="@+id/spinnerCorCarro"
+                android:layout_width="251dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="5dp" />
+
+            <Button
+                android:id="@+id/salvarCarro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cadastraCor"
+                android:text="@string/addNovaCor"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
 
         <Button
-            android:id="@+id/salvarCarro"
+            android:id="@+id/salvar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="cadastraCor"
-            android:text="@string/addNovaCor" />
+            android:onClick="Salvar"
+            android:text="@string/salvar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

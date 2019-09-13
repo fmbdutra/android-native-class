@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -14,6 +16,8 @@ public class CadastroCarroActivity extends AppCompatActivity {
 
     ArrayList<String> listaMarcaCarro = new ArrayList<String>();
     ArrayList<String> coresCarro = new ArrayList<String>();
+    ArrayList<Carro> listaCarrosCadastrados = new ArrayList<Carro>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +79,43 @@ public class CadastroCarroActivity extends AppCompatActivity {
             coresCarro.add(cor);
             atualizaSpinnerCor();
         }
+    }
+
+    public void salvar(View view){
+        EditText nomeCarro = findViewById(R.id.editTextNomeCarro);
+        Spinner marcaCarro = findViewById(R.id.spinnerMarcaCarro);
+        EditText placaCarro = findViewById(R.id.editTextPlacaCarro);
+        Spinner corCarro = findViewById(R.id.spinnerCorCarro);
+
+        if(nomeCarro.getText().toString().equals("")
+                && !marcaCarro.isSelected()
+                && placaCarro.getText().toString().equals("")
+                && !corCarro.isSelected()
+        ){
+            Toast.makeText(getApplicationContext(),R.string.preenchaCampos,Toast.LENGTH_LONG).show();
+            return;
+        }else{
+
+            Carro c = new Carro();
+            c.setNomeCarro(nomeCarro.toString());
+            c.setMarcaCarro((String) marcaCarro.getSelectedItem());
+            c.setPlacaCarro(placaCarro.getText().toString());
+            c.setCorcarro((String) corCarro.getSelectedItem());
+
+            listaCarrosCadastrados.add(c);
+
+            //Limpeza da Tela
+            nomeCarro.setText(null);
+            marcaCarro.setSelection(0);
+            corCarro.setSelection(0);
+            placaCarro.setText(null);
+
+            //Mensagem de Sucesso
+            Toast.makeText(getApplicationContext(),R.string.salvouSucesso,Toast.LENGTH_SHORT).show();
+
+        }
+
+
     }
 
 }

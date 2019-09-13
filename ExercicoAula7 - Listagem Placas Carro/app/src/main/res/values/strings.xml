@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExemploPratico</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">login</string>
+    <string name="usario_senha_invalido">Usuário ou senha inválido</string>
+    <string name="nome_carro">Nome do Carro</string>
+    <string name="marca_carro">Marca do Carro</string>
+    <string name="placa_carro">Placa do Carro</string>
+    <string name="cor_carro">Cor do Carro</string>
+    <string name="salvar">Salvar</string>
+    <string name="dicaCor">Digite o nome da cor</string>
+    <string name="cadastraCor">Nova Cor</string>
+    <string name="addNovaCor">Adicionar Cor</string>
+
+
+</resources>
