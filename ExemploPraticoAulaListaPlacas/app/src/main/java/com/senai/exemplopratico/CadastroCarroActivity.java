@@ -101,7 +101,7 @@ public class CadastroCarroActivity extends AppCompatActivity {
         }else{
 
             Carro c = new Carro();
-            c.setNome(nomeCarro.toString());
+            c.setNome(nomeCarro.getText().toString());
             c.setMarca((String) marcaCarro.getSelectedItem());
             c.setPlaca(placaCarro.getText().toString());
             c.setCor((String) corCarro.getSelectedItem());
