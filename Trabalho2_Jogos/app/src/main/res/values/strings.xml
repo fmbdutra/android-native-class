@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TrabalhoJogos</string>
+    <string name="nome_jogo">Nome do Jogo</string>
+    <string name="categoria_jogo">Categoria</string>
+    <string name="salvar">Salvar</string>
+    <string name="preenchaCampos">Preencha os campos</string>
+    <string name="salvouSucesso">Salvo com Sucesso</string>
+    <string name="listaBtn">Lista de Jogos</string>
+
+</resources>
