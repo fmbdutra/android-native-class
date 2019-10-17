@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\6f5cdc300576e3c5a53a3eab48d57943\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\78321c488e4b01982f5bb7373dd443bd\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\a2423a1006ae1218ad163cb4477ff3df\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\c53c7999dc8cdd37edda50ca20444783\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\a326ccca922ac88cac09af920d8b9035\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\ba4a6ca25fec2f7a8c338195677318c9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\0642b571f15a3c72a2d7a3c8d512ea5b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\6eac0c6222d61599acffb99ecfcedf7e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\2f077a984b46d2039b46e2b9ca0230ae\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\e11624fb404583ca4e73ae3ef12a96c0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\d3c5a0d98a29a19261f4a48e301ebd57\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\7fa8c539d4d7d47863736e248fc98f4a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\22a86dfb0c2a2e824129f98812c9fb85\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\25807bdfdea131695cc1a8798915df40\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\8b0409bf6d2b65e8aab0baae20587773\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\006c390cff918b6c970f4f003012ab85\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\5d89ae8d137e8e707f56fed39e6d473f\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\01ffef4aedb8a71a3c11b60b8c7efc41\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\851dc4986f36f868352776e9d20f3a11\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\3f892cbc4bc760f036c39e313d18a209\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\7e8af92965277f132370fbff51127a2b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\cb4d1de2ea16e556301ac6a90a949dcb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\8a9e7193a519fb068d0df8eaf54619f8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\c19749790f217a28f7a5b2f9533095d2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\cbe2880186f2929cc03faf6e52a9f3cf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\045752f52c901fc608fdd817b73084cb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\e166f389f86a59395193b672830ad119\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\78321c488e4b01982f5bb7373dd443bd\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\78321c488e4b01982f5bb7373dd443bd\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\006c390cff918b6c970f4f003012ab85\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\006c390cff918b6c970f4f003012ab85\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\5d89ae8d137e8e707f56fed39e6d473f\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\5d89ae8d137e8e707f56fed39e6d473f\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\006c390cff918b6c970f4f003012ab85\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.senai.exemplopratico.CadastroCorActivity
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:12:9-66
+	android:name
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:12:19-54
+activity#com.senai.exemplopratico.CadastroCarroActivity
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:13:9-59
+	android:name
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:13:19-56
+activity#com.senai.exemplopratico.LoginActivity
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:14:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\6f5cdc300576e3c5a53a3eab48d57943\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\6f5cdc300576e3c5a53a3eab48d57943\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\78321c488e4b01982f5bb7373dd443bd\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\78321c488e4b01982f5bb7373dd443bd\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\a2423a1006ae1218ad163cb4477ff3df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\a2423a1006ae1218ad163cb4477ff3df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\c53c7999dc8cdd37edda50ca20444783\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\c53c7999dc8cdd37edda50ca20444783\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\a326ccca922ac88cac09af920d8b9035\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\a326ccca922ac88cac09af920d8b9035\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\ba4a6ca25fec2f7a8c338195677318c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\ba4a6ca25fec2f7a8c338195677318c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\0642b571f15a3c72a2d7a3c8d512ea5b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\0642b571f15a3c72a2d7a3c8d512ea5b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\6eac0c6222d61599acffb99ecfcedf7e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\6eac0c6222d61599acffb99ecfcedf7e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\2f077a984b46d2039b46e2b9ca0230ae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\2f077a984b46d2039b46e2b9ca0230ae\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\e11624fb404583ca4e73ae3ef12a96c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\e11624fb404583ca4e73ae3ef12a96c0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\d3c5a0d98a29a19261f4a48e301ebd57\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\d3c5a0d98a29a19261f4a48e301ebd57\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\7fa8c539d4d7d47863736e248fc98f4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\7fa8c539d4d7d47863736e248fc98f4a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\22a86dfb0c2a2e824129f98812c9fb85\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\22a86dfb0c2a2e824129f98812c9fb85\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\25807bdfdea131695cc1a8798915df40\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\25807bdfdea131695cc1a8798915df40\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\8b0409bf6d2b65e8aab0baae20587773\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\8b0409bf6d2b65e8aab0baae20587773\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\006c390cff918b6c970f4f003012ab85\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\006c390cff918b6c970f4f003012ab85\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\5d89ae8d137e8e707f56fed39e6d473f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\5d89ae8d137e8e707f56fed39e6d473f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\01ffef4aedb8a71a3c11b60b8c7efc41\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\01ffef4aedb8a71a3c11b60b8c7efc41\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\851dc4986f36f868352776e9d20f3a11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\851dc4986f36f868352776e9d20f3a11\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\3f892cbc4bc760f036c39e313d18a209\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\3f892cbc4bc760f036c39e313d18a209\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\7e8af92965277f132370fbff51127a2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\7e8af92965277f132370fbff51127a2b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\cb4d1de2ea16e556301ac6a90a949dcb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\cb4d1de2ea16e556301ac6a90a949dcb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\8a9e7193a519fb068d0df8eaf54619f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\8a9e7193a519fb068d0df8eaf54619f8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\c19749790f217a28f7a5b2f9533095d2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\c19749790f217a28f7a5b2f9533095d2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\cbe2880186f2929cc03faf6e52a9f3cf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\cbe2880186f2929cc03faf6e52a9f3cf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\045752f52c901fc608fdd817b73084cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\045752f52c901fc608fdd817b73084cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\e166f389f86a59395193b672830ad119\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fabiano.dutra\.gradle\caches\transforms-2\files-2.1\e166f389f86a59395193b672830ad119\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fabiano.dutra\Desktop\android-native-class\ExercicoAula7 - Listagem Placas Carro\app\src\main\AndroidManifest.xml
