@@ -13,7 +13,7 @@ import java.util.List;
 public class BancoDados extends SQLiteOpenHelper {
 
     static String BANCO_DADOS = "aula";
-    static int VERSION_BANCO_DADOS = 3;
+    static int VERSION_BANCO_DADOS = 4;
 
     public BancoDados(Context context) {
         super(context, BANCO_DADOS, null, VERSION_BANCO_DADOS);
@@ -24,7 +24,7 @@ public class BancoDados extends SQLiteOpenHelper {
         String sql = "create table usuario (login text primary key, senha text)";
         sqLiteDatabase.execSQL(sql);
 
-        String insertUsuario = "insert into usuario values('fabiano','123456')";
+        String insertUsuario = "insert into usuario values('marcelo','123456')";
         sqLiteDatabase.execSQL(insertUsuario);
         Log.i("SENAI", "ON_CREATE");
     }
@@ -36,7 +36,7 @@ public class BancoDados extends SQLiteOpenHelper {
             String sql = "create table carro (chave INTEGER primary key," +
                     " nome text, placa text, cor text, marca text)";
             sqLiteDatabase.execSQL(sql);
-        } else if (newVersion == 3) {
+        } else if (newVersion == 4) {
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -44,7 +44,7 @@ public class BancoDados extends SQLiteOpenHelper {
                     " marca text)";
             sqLiteDatabase.execSQL(sql);
 
-            // inserindo cores
+            // inserindo marcas
             sql = "insert into cor values(null,'amarelo')";
             sqLiteDatabase.execSQL(sql);
             sql = "insert into cor values(null,'preto')";
@@ -102,6 +102,23 @@ public class BancoDados extends SQLiteOpenHelper {
         cursor.close();
 
         return u;
+    }
+
+    public List<String> marcas(){
+        List<String> lista = new ArrayList<>();
+
+        String sql = "SELECT marca FROM marcas";
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery(sql, null);
+        cursor.moveToFirst();
+        for (int i = 0; i < cursor.getCount(); i++) {
+            String marca = cursor.getString(0); //É 1 PORQUE A POSIÇÃO 0 É O ID (PRIMARY KEY)
+            lista.add(marca);
+            cursor.moveToNext();
+        }
+
+        cursor.close();
+        return lista;
     }
 
 

@@ -10,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class CadastroCarroActivity extends AppCompatActivity {
@@ -33,11 +32,13 @@ public class CadastroCarroActivity extends AppCompatActivity {
                     getIntent().getExtras().get("usuario_logado");
         setTitle("Seja bem vindo: " + usuario);
 
-        // popular lista
-        listaMarcaCarro.add("VW");
-        listaMarcaCarro.add("Ford");
-        listaMarcaCarro.add("Fiat");
-        listaMarcaCarro.add("GM");
+//        popular lista
+//        listaMarcaCarro.add("VW");
+//        listaMarcaCarro.add("Ford");
+//        listaMarcaCarro.add("Fiat");
+//        listaMarcaCarro.add("GM");
+
+        listaMarcaCarro.addAll(bancoDados.marcas());
 
         coresCarro.add("vermelha");
         coresCarro.add("azul");
