@@ -24,7 +24,7 @@ public class BancoDados extends SQLiteOpenHelper {
         String sql = "create table usuario (login text primary key, senha text)";
         sqLiteDatabase.execSQL(sql);
 
-        String insertUsuario = "insert into usuario values('marcelo','123456')";
+        String insertUsuario = "insert into usuario values('fabiano','123456')";
         sqLiteDatabase.execSQL(insertUsuario);
         Log.i("SENAI", "ON_CREATE");
     }
@@ -85,24 +85,24 @@ public class BancoDados extends SQLiteOpenHelper {
         return ret;
     }
 
-    public List<Usuario> buscaUsuario() {
-        List<Usuario> lista = new ArrayList<>();
-        String sql = "SELECT login, senha FROM usuario";
+    public Usuario login(String login, String senha) {
+        String sql = "SELECT login, senha FROM usuario WHERE login='" + login + "' AND senha='" + senha + "'";
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery(sql, null);
         cursor.moveToFirst();
+        Usuario u = null;
 
-        for (int i = 0; i < cursor.getCount(); i++){
-            Usuario u = new Usuario();
+        for (int i = 0; i < cursor.getCount(); i++) {
+            u = new Usuario();
             u.setLogin(cursor.getString(0));
             u.setSenha(cursor.getString(1));
-            lista.add(u);
             cursor.moveToNext();
         }
 
         cursor.close();
 
-        return  lista;
+        return u;
     }
+
 
 }

@@ -28,9 +28,12 @@ public class LoginActivity extends AppCompatActivity {
         TextView usuario = findViewById(R.id.editTextNOme);
         TextView senha = findViewById(R.id.editTextSenha);
 
-        if (usuario.getText().toString().equals("admin") &&
-                senha.getText().toString().equals("123")
-        ) {
+//        if (usuario.getText().toString().equals("admin") &&
+//                senha.getText().toString().equals("123")
+//        ) {
+        if (bancoDados.login(usuario.getText().toString(),
+                senha.getText().toString()) != null)
+        {
             // abrir nova active de cadastro do carro
             Bundle sacola = new Bundle();
             sacola.putString("usuario_logado","admin");
