@@ -39,11 +39,12 @@ public class CadastroCarroActivity extends AppCompatActivity {
 //        listaMarcaCarro.add("GM");
 
         listaMarcaCarro.addAll(bancoDados.marcas());
+        coresCarro.addAll(bancoDados.cores());
 
-        coresCarro.add("vermelha");
-        coresCarro.add("azul");
-        coresCarro.add("prata");
-        coresCarro.add("preto");
+//        coresCarro.add("vermelha");
+//        coresCarro.add("azul");
+//        coresCarro.add("prata");
+//        coresCarro.add("preto");
 
         atualizaSpinnerMarcas();
         atualizaSpinnerCor();
@@ -135,6 +136,8 @@ public class CadastroCarroActivity extends AppCompatActivity {
     }
 
     public void listagem(View view) {
+        listaCarroCadastrados.addAll(bancoDados.retornaCarros());
+
         Intent intent = new Intent(this,ListagemCarroActivity.class);
         Bundle bundle = new Bundle();
         bundle.putSerializable("lista",listaCarroCadastrados);

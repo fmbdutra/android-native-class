@@ -13,7 +13,7 @@ import java.util.List;
 public class BancoDados extends SQLiteOpenHelper {
 
     static String BANCO_DADOS = "aula";
-    static int VERSION_BANCO_DADOS = 4;
+    static int VERSION_BANCO_DADOS = 6;
 
     public BancoDados(Context context) {
         super(context, BANCO_DADOS, null, VERSION_BANCO_DADOS);
@@ -32,11 +32,15 @@ public class BancoDados extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
 
-        if (newVersion == 1) {
+        if (newVersion == 6) {
             String sql = "create table carro (chave INTEGER primary key," +
                     " nome text, placa text, cor text, marca text)";
             sqLiteDatabase.execSQL(sql);
-        } else if (newVersion == 4) {
+
+            sql = "insert into carro values(null,'exemplo', 'FAB1234', 'amarelo', 'vw')";
+            sqLiteDatabase.execSQL(sql);
+
+        } else if (newVersion == 6) {
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -116,6 +120,46 @@ public class BancoDados extends SQLiteOpenHelper {
             lista.add(marca);
             cursor.moveToNext();
         }
+
+        cursor.close();
+        return lista;
+    }
+
+    public List<String> cores(){
+        List<String> lista = new ArrayList<>();
+
+        String sql = "SELECT cor FROM cor";
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery(sql, null);
+        cursor.moveToFirst();
+        for (int i = 0; i < cursor.getCount(); i++) {
+            String cor = cursor.getString(0); //É 1 PORQUE A POSIÇÃO 0 É O ID (PRIMARY KEY)
+            lista.add(cor);
+            cursor.moveToNext();
+        }
+
+        cursor.close();
+        return lista;
+    }
+
+    public List<Carro> retornaCarros(){
+        List<Carro> lista = new ArrayList<>();
+
+        String sql = "SELECT nome, placa, cor, marca FROM carro";
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor cursor = db.rawQuery(sql, null);
+        cursor.moveToFirst();
+        for (int i = 0; i < cursor.getCount(); i++) {
+            Carro c = new Carro();
+            c.nome = cursor.getString(0); //É 1 PORQUE A POSIÇÃO 0 É O ID (PRIMARY KEY)
+            c.placa = cursor.getString(1);
+            c.cor = cursor.getString(2);
+            c.marca = cursor.getString(3);
+            lista.add(c);
+            cursor.moveToNext();
+        }
+
+//        nome text, placa text, cor text, marca text
 
         cursor.close();
         return lista;
