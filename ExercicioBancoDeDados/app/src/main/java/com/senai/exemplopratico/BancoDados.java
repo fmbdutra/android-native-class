@@ -13,7 +13,7 @@ import java.util.List;
 public class BancoDados extends SQLiteOpenHelper {
 
     static String BANCO_DADOS = "aula";
-    static int VERSION_BANCO_DADOS = 6;
+    static int VERSION_BANCO_DADOS = 8;
 
     public BancoDados(Context context) {
         super(context, BANCO_DADOS, null, VERSION_BANCO_DADOS);
@@ -40,7 +40,7 @@ public class BancoDados extends SQLiteOpenHelper {
             sql = "insert into carro values(null,'exemplo', 'FAB1234', 'amarelo', 'vw')";
             sqLiteDatabase.execSQL(sql);
 
-        } else if (newVersion == 6) {
+        } else if (newVersion == 7) {
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -67,6 +67,10 @@ public class BancoDados extends SQLiteOpenHelper {
             sqLiteDatabase.execSQL(sql);
             Log.i("SENAI", "ON_UPGRADE_version 2");
 
+        }else if (newVersion ==8) {
+            String insertUsuario = "insert into usuario values('fabiano','123456')";
+            sqLiteDatabase.execSQL(insertUsuario);
+            Log.i("SENAI", "Criar Fabiano");
         }
 
     }
@@ -145,21 +149,20 @@ public class BancoDados extends SQLiteOpenHelper {
     public List<Carro> retornaCarros(){
         List<Carro> lista = new ArrayList<>();
 
-        String sql = "SELECT nome, placa, cor, marca FROM carro";
+        String sql = "SELECT * FROM carro";
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.rawQuery(sql, null);
         cursor.moveToFirst();
         for (int i = 0; i < cursor.getCount(); i++) {
             Carro c = new Carro();
-            c.nome = cursor.getString(0); //É 1 PORQUE A POSIÇÃO 0 É O ID (PRIMARY KEY)
-            c.placa = cursor.getString(1);
-            c.cor = cursor.getString(2);
-            c.marca = cursor.getString(3);
+            c.id = cursor.getInt(0);
+            c.nome = cursor.getString(1); //É 1 PORQUE A POSIÇÃO 0 É O ID (PRIMARY KEY)
+            c.placa = cursor.getString(2);
+            c.cor = cursor.getString(3);
+            c.marca = cursor.getString(4);
             lista.add(c);
             cursor.moveToNext();
         }
-
-//        nome text, placa text, cor text, marca text
 
         cursor.close();
         return lista;

@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void login(View view) {
 
-        TextView usuario = findViewById(R.id.editTextNOme);
+        TextView usuario = findViewById(R.id.editTextNome);
         TextView senha = findViewById(R.id.editTextSenha);
 
 //        if (usuario.getText().toString().equals("admin") &&
