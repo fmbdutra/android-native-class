@@ -4,10 +4,10 @@
     <string name="senha">Senha</string>
     <string name="login">login</string>
     <string name="usario_senha_invalido">Usuário ou senha inválido</string>
-    <string name="nome_carro">Nome do Carro</string>
-    <string name="marca_carro">Marca do Carro</string>
-    <string name="placa_carro">Placa do Carro</string>
-    <string name="cor_carro">Cor do Carro</string>
+    <string name="nome_carro">Nome do Carro: </string>
+    <string name="marca_carro">Marca do Carro: </string>
+    <string name="placa_carro">Placa do Carro: </string>
+    <string name="cor_carro">Cor do Carro: </string>
     <string name="pontinho">...</string>
     <string name="salvar">Salvar</string>
     <string name="sucesso">Cadastrao realizado com sucesso</string>

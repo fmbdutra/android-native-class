@@ -168,12 +168,10 @@ public class BancoDados extends SQLiteOpenHelper {
         return lista;
     }
 
-//    public boolean delete(int idCarro){
-//        String sql  = "delete from carro where chave = ?";
-//        getWritableDatabase().execSQL(sql, new Object[]{idCarro});
-//
-//        return
-//    }
+    public void deletaCarro(int idCarro){
+        String sql  = "delete from carro where chave = ?";
+        getWritableDatabase().execSQL(sql, new Object[]{idCarro});
+    }
 
 
 }
