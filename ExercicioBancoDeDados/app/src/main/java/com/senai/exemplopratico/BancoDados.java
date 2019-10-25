@@ -146,8 +146,8 @@ public class BancoDados extends SQLiteOpenHelper {
         return lista;
     }
 
-    public List<Carro> retornaCarros(){
-        List<Carro> lista = new ArrayList<>();
+    public ArrayList<Carro> retornaCarros(){
+        ArrayList<Carro> lista = new ArrayList<>();
 
         String sql = "SELECT * FROM carro";
         SQLiteDatabase db = getReadableDatabase();
@@ -167,6 +167,13 @@ public class BancoDados extends SQLiteOpenHelper {
         cursor.close();
         return lista;
     }
+
+//    public boolean delete(int idCarro){
+//        String sql  = "delete from carro where chave = ?";
+//        getWritableDatabase().execSQL(sql, new Object[]{idCarro});
+//
+//        return
+//    }
 
 
 }

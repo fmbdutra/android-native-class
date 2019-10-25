@@ -11,6 +11,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class CadastroCarroActivity extends AppCompatActivity {
 
@@ -136,11 +137,13 @@ public class CadastroCarroActivity extends AppCompatActivity {
     }
 
     public void listagem(View view) {
-        listaCarroCadastrados.addAll(bancoDados.retornaCarros());
+//        listaCarroCadastrados.addAll(bancoDados.retornaCarros());
+
+        ArrayList<Carro> carros = bancoDados.retornaCarros();
 
         Intent intent = new Intent(this,ListagemCarroActivity.class);
         Bundle bundle = new Bundle();
-        bundle.putSerializable("lista",listaCarroCadastrados);
+        bundle.putSerializable("lista",carros);
         intent.putExtras(bundle);
         startActivity(intent);
     }
