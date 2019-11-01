@@ -49,6 +49,19 @@ public class CorController {
     	carro.marca = marca;
     	listaCarro.add(carro);
     }
+    
+    
+    @RequestMapping("/meu_nome")
+    public String getMeuNome(){
+        return "Fabiano Dutra";
+    }
+    
+    // http://localhost:8080/calculadora?op1=2&op2=8
+    @RequestMapping("/calculadora")
+    public float calculadora(@RequestParam(value="op1") float op1,
+    		@RequestParam(value="op2") float op2){
+        return op1+op2;
+    }
      
     
     
