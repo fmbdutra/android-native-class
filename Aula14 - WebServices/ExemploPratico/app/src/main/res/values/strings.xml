@@ -13,5 +13,9 @@
     <string name="sucesso">Cadastrao realizado com sucesso</string>
     <string name="listagem">Listagem</string>
     <string name="deletar_carro">Deletar carro</string>
+    <string name="ws">Sobre</string>
+    <string name="meu_nome">Autor</string>
+    <string name="erro_ws">Problema ao acessar o servidor</string>
+
 
 </resources>

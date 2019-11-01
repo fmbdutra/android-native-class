@@ -13,7 +13,7 @@ import java.util.List;
 public class BancoDados extends SQLiteOpenHelper {
 
     static String BANCO_DADOS = "aula";
-    static int VERSION_BANCO_DADOS = 6;
+    static int VERSION_BANCO_DADOS = 8;
 
     public BancoDados(Context context) {
         super(context, BANCO_DADOS, null, VERSION_BANCO_DADOS);
@@ -36,7 +36,7 @@ public class BancoDados extends SQLiteOpenHelper {
             String sql = "create table carro (chave INTEGER primary key," +
                     " nome text, placa text, cor text, marca text)";
             sqLiteDatabase.execSQL(sql);
-        }else if(newVersion == 4){
+        }else if(newVersion == 8){
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -67,7 +67,7 @@ public class BancoDados extends SQLiteOpenHelper {
             sqLiteDatabase.execSQL(sql);
             Log.i("SENAI","ON_UPGRADE_version 2");
 
-        }else if(newVersion == 5){
+        }else if(newVersion == 9){
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -77,7 +77,7 @@ public class BancoDados extends SQLiteOpenHelper {
             sql = "create table carro (chave INTEGER primary key," +
                     " nome text, placa text, cor text, marca text)";
             sqLiteDatabase.execSQL(sql);
-        }else if(newVersion == 6){
+        }else if(newVersion == 10){
             // inserindo marcas
 
             String sql = "insert into marcas values(null,'vw')";

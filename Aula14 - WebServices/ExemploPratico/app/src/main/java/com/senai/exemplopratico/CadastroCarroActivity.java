@@ -147,4 +147,9 @@ public class CadastroCarroActivity extends AppCompatActivity {
         intent.putExtras(bundle);
         startActivity(intent);
     }
+
+    public void meu_nome(View view){
+        Intent intent = new Intent(this,MeuNomeWSActivity.class);
+        startActivity(intent);
+    }
 }

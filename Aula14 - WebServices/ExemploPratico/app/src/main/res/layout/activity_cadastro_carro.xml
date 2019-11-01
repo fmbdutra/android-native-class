@@ -97,5 +97,12 @@
             android:onClick="listagem"
             android:text="@string/listagem" />
 
+        <Button
+            android:id="@+id/chamada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="meu_nome"
+            android:text="@string/ws" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
