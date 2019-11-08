@@ -16,6 +16,11 @@
     <string name="ws">Sobre</string>
     <string name="meu_nome">Autor</string>
     <string name="erro_ws">Problema ao acessar o servidor</string>
+    <string name="nome">Nome</string>
+    <string name="data_nasc">Data de Nascimento/</string>
+    <string name="endereco">Endereço</string>97
+    <string name="cadCliente">Cadastrar Cliente</string>
+    <string name="sucessoCadastroCliente">Cliente salvo com sucesso</string>
 
 
 </resources>

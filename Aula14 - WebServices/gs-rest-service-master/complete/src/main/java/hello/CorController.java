@@ -7,6 +7,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import javax.jws.WebMethod;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,6 +17,7 @@ public class CorController {
     
     private List<String> listaCor = new ArrayList<String>();
     private List<Carro> listaCarro = new ArrayList<Carro>();
+    private List<Cliente> listaCliente = new ArrayList<Cliente>();
     
     //localhost:8080/lista_cores
     
@@ -62,6 +64,22 @@ public class CorController {
     		@RequestParam(value="op2") float op2){
         return op1+op2;
     }
+    
+    
+    @RequestMapping("/salva_cliente")
+    public void salvarCliente( @RequestParam(value="nome") String nome,
+                               @RequestParam(value="endereco") String endereco,
+                               @RequestParam(value="data_nasc") String data_nasc){
+        
+        Cliente c = new Cliente();
+        c.nome = nome;
+        c.endereco = endereco;
+        c.data_nasc = data_nasc;
+        listaCliente.add(c);
+       
+    }
+    
+    
      
     
     

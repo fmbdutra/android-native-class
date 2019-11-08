@@ -98,6 +98,13 @@
             android:text="@string/listagem" />
 
         <Button
+            android:id="@+id/cadCliente_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cadastrarCliente"
+            android:text="@string/cadCliente" />
+
+        <Button
             android:id="@+id/chamada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

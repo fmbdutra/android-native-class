@@ -27,7 +27,7 @@ public class MeuNomeWSActivity extends AppCompatActivity {
 
         try {
             String ret = clientHttp.executeOnExecutor(Executors.newSingleThreadExecutor(),
-                new String[]{"http://10.200.117.116:8081/meu_nome"}).get();
+                new String[]{"http://10.200.118.168:8081/meu_nome"}).get();
 
             TextView meuNomeLabel = findViewById(R.id.meu_nome_aqui);
 

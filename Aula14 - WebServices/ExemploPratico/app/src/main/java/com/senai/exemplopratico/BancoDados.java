@@ -13,7 +13,7 @@ import java.util.List;
 public class BancoDados extends SQLiteOpenHelper {
 
     static String BANCO_DADOS = "aula";
-    static int VERSION_BANCO_DADOS = 8;
+    static int VERSION_BANCO_DADOS = 1;
 
     public BancoDados(Context context) {
         super(context, BANCO_DADOS, null, VERSION_BANCO_DADOS);
@@ -26,17 +26,17 @@ public class BancoDados extends SQLiteOpenHelper {
 
         String insertUsuario = "insert into usuario values('marcelo','123456')";
         sqLiteDatabase.execSQL(insertUsuario);
-        Log.i("SENAI","ON_CREATE");
+        Log.i("SENAI", "ON_CREATE");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
 
-        if(newVersion == 1) {
+        if(newVersion == 2) {
             String sql = "create table carro (chave INTEGER primary key," +
                     " nome text, placa text, cor text, marca text)";
             sqLiteDatabase.execSQL(sql);
-        }else if(newVersion == 8){
+        }else if(newVersion == 3){
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -67,7 +67,7 @@ public class BancoDados extends SQLiteOpenHelper {
             sqLiteDatabase.execSQL(sql);
             Log.i("SENAI","ON_UPGRADE_version 2");
 
-        }else if(newVersion == 9){
+        }else if(newVersion == 4){
             String sql = "create table cor (chave INTEGER primary key ," +
                     " cor text)";
             sqLiteDatabase.execSQL(sql);
@@ -77,7 +77,7 @@ public class BancoDados extends SQLiteOpenHelper {
             sql = "create table carro (chave INTEGER primary key," +
                     " nome text, placa text, cor text, marca text)";
             sqLiteDatabase.execSQL(sql);
-        }else if(newVersion == 10){
+        }else if(newVersion == 5){
             // inserindo marcas
 
             String sql = "insert into marcas values(null,'vw')";
@@ -89,8 +89,8 @@ public class BancoDados extends SQLiteOpenHelper {
             sql = "insert into marcas values(null,'fiat')";
             sqLiteDatabase.execSQL(sql);
         }
-
     }
+
 
     public long cadastrarCarro(Carro carro){
 

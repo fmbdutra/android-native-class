@@ -152,4 +152,9 @@ public class CadastroCarroActivity extends AppCompatActivity {
         Intent intent = new Intent(this,MeuNomeWSActivity.class);
         startActivity(intent);
     }
+
+    public void cadastrarCliente(View view){
+        Intent intent = new Intent(this,CadastroCliente.class);
+        startActivity(intent);
+    }
 }
